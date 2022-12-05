@@ -1,0 +1,33 @@
+.banner{
+  background-image: url("/static/assets/img/banner.jpg");
+  height: 538px;
+  background-color: #f1f1f1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.shop-gender{
+  button{
+    font-size: 14px;
+  padding: 11px 25px;
+  }
+  .btn-women{
+    background-color: #222; 
+    color: #ffffff;
+  }
+  .btn-women:hover{
+    background-color: #f1f1f1; 
+    color: #000;
+  }
+  .btn-men{
+    background-color: #f1f1f1;
+    color: #000;
+
+  }
+  .btn-men:hover{
+    background-color: #222;
+    color: #ffffff;
+  }
+}
+

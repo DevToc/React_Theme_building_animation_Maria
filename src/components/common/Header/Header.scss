@@ -1,0 +1,145 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+ul{
+  padding-left: 0;
+}
+a{
+  all:unset
+}
+
+.top-header {
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #222;
+}
+.left ul,
+.right ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  li:not(:last-child):before {
+    content: "";
+    position: absolute;
+    right: -9px;
+    top: 5.5px;
+    width: 1px;
+    height: 15px;
+    background: #888;
+  }
+  
+  li {
+    display: inline-block;
+    position: relative;
+    margin-right: 17px;
+    line-height: normal;
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: normal;
+      color: #222;
+      transition: 0.5s;
+      position: relative;
+    }
+    a:hover {
+      color: #222;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #222;
+      transform-origin: bottom left;
+      transition: transform 0.25s ease-out;
+    }
+    a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+}
+
+select {
+  border: none;
+  background-color: #f1f1f1;
+}
+select:focus {
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.page {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #ffffff;
+}
+.logo{
+  height: 61px;
+  a{
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+.nav-link{
+  color:#000;
+  font-size: 14px;
+}
+
+.auth {
+  ul{
+    list-style-type: none;
+  margin-bottom: 0;
+  li:not(:last-child):before {
+    content: "";
+    position: absolute;
+    right: -9px;
+    top: 5.5px;
+    width: 1px;
+    height: 15px;
+    background: #888;
+  }
+  
+  li {
+    display: inline-block;
+    position: relative;
+    margin-right: 17px;
+    line-height: normal;
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      line-height: normal;
+      color: #222;
+      transition: 0.5s;
+      position: relative;
+    }
+    a:hover {
+      color: #222;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #222;
+      transform-origin: bottom left;
+      transition: transform 0.25s ease-out;
+    }
+    a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+  }
+}
