@@ -63,44 +63,33 @@ const Footer = () => {
       </Container>
       <Stack className="copyright">
         <Container>
-          <div className="d-flex justify-space-between">
+          <div className="d-flex justify-content-between">
             <div>
               <p>
               Copyright @ 2020 Novine. All Rights Reserved By <a href="" style={{color:'#1b28ce'}}>EnvyTheme.com</a> 
               </p>
             </div>
             <Stack direction="horizontal" gap={1}>
-                <ul>
-                <li>
+                
                   <a href="">
-                    <img src="/static/assets/img/1.png" alt="" />
+                    <img src="static/assets/img/1.png" alt="" />
                   </a>
-                </li>
 
-                <li>
                   <a href="">
-                    <img src="/static/assets/img/2.png" alt="" />
+                    <img src="static/assets/img/2.png" alt="" />
                   </a>
-                </li>
 
-                <li>
                   <a href="">
-                    <img src="/static/assets/img/3.png" alt="" />
+                    <img src="static/assets/img/3.png" alt="" />
                   </a>
-                </li>
 
-                <li>
                   <a href="">
-                    <img src="/static/assets/img/4.png" alt="" />
+                    <img src="static/assets/img/4.png" alt="" />
                   </a>
-                </li>
 
-                <li>
                   <a href="">
-                    <img src="/static/assets/img/5.png" alt="" />
+                    <img src="static/assets/img/5.png" alt="" />
                   </a>
-                </li>
-                </ul>
             </Stack>
 
           </div>
