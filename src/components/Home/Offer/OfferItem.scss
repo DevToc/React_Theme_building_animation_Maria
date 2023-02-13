@@ -1,0 +1,31 @@
+.offer-item {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  padding: 5px;
+  bottom: 8px;
+
+  .offer-content {
+    height: 50px;
+    background-color: #f1f1f180;
+    padding: 10px 60px;
+    transition: height 0.5s;
+
+    &:hover {
+      height: 200px;
+      .list{
+        transition: opacity 0.5s;
+        opacity: 1;
+      }
+    }
+    .list {
+      text-align: center;
+      transition: opacity 0.5s;
+      opacity: 0;
+      li {
+        list-style-type: none;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

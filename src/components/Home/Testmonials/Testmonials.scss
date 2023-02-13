@@ -1,0 +1,22 @@
+
+.testmonials{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+    z-index: 1;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://localhost:3000/static/assets/img/testmonials.jpg);
+}
+.testmonials::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #222;
+  opacity: .7;
+}

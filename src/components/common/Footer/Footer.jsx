@@ -8,11 +8,11 @@ const imgs = ["1.png","2.png","3.png","4.png","5.png"]
 
 const Footer = () => {
   return (
-    <Stack>
+    <Stack className="footer">
       <Container>
         <Stack direction="horizontal">
           <Stack className="col-md-1">
-            <h2>Novine</h2>
+            <h3>Novine</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis

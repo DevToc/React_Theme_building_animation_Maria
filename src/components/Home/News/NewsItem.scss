@@ -1,0 +1,27 @@
+.news-item {
+  background-color: #f1f1f1;
+}
+
+.btn-readmore {
+  background-color: #f1f1f1;
+  color: #222;
+  padding: 11px 25px;
+  border:1px solid #222
+  a {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.btn-readmore:hover {
+  background-color: #222;
+  color: white;
+}
+img {
+  width: 100%;
+}
+.news-content {
+  padding: 20px 40px 20px 20px;
+}
+.no-style:hover {
+  all: unset;
+}
